@@ -1,0 +1,118 @@
+.App {
+  min-height: 100vh;
+  max-width: 480px;
+  margin: auto;
+  /* position: relative; */
+  margin-top: 60px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.head {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "clear-sans-medium";
+}
+
+.card-seed {
+  background: #ffffff;
+  box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  min-width: 101px;
+  min-height: 32px;
+  padding: 8px 6px;
+}
+
+.card-seed-number {
+  border-radius: 50%;
+  background-color: #BBCFFB;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.number {
+  color: #004DFF;
+  font-size: 11px;
+}
+
+.auto-gen-title {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "clear-sans-medium";
+  color: #004dff;
+  padding: 0 20px;
+}
+
+.body {
+  padding: 0 20px;
+
+}
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  background: #FFFFFF;
+  box-shadow: 0px -7px 64px rgba(0, 0, 0, 0.07);
+  width: 100%;
+  height: 20%;
+  max-width: 480px;
+  padding: 26px 20px 36px 20px;
+}
+
+.bg-blue {
+  background-color: #004DFF !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
